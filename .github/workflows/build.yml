@@ -19,7 +19,6 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - 
       - name: Make gradlew executable
         run: chmod +x gradlew
 
@@ -31,5 +30,4 @@ jobs:
         with:
           name: White-RP-Launcher-APK
           path: app/build/outputs/apk/debug/*.apk
-
-  
+          
